@@ -46,3 +46,48 @@ Arquivo: `contatos.xlsx`
 ## 🚀 Instalação
 
 1. Criar ambiente virtual:
+   python -m venv venv
+   
+2. Ativar ambiente:
+
+Windows:
+
+venv\Scripts\activate
+Linux/Mac:
+
+source venv/bin/activate
+
+3. Instalar dependências:
+
+pip install -r requirements.txt
+
+---
+
+## ▶️ Execução
+
+1. Certifique-se de estar logado no WhatsApp Web no Firefox.
+2. Execute:
+
+python main.py
+
+
+---
+
+## 🔐 Estratégia Anti-Ban
+
+- Apenas 5 mensagens por execução
+- Delay aleatório entre envios
+- Não envia link no primeiro contato
+- Simulação de comportamento humano
+
+---
+
+## 📈 Melhorias Futuras
+
+- Controle de respostas
+- Follow-up automático
+- Sistema de rotação de mensagens
+- Log estruturado
+- Integração com proxy/browser profile isolado
+
+
