@@ -20,3 +20,29 @@ Uso por sua conta e risco. Automação pode violar os Termos de Serviço do What
 ---
 
 ## 📂 Estrutura do Projeto
+
+├── main.py
+├── contatos.xlsx
+├── requirements.txt
+└── README.md
+
+
+---
+
+## 📊 Estrutura da Planilha
+
+Arquivo: `contatos.xlsx`
+
+| Numero        | Status   |
+|--------------|----------|
+| 5511999999999 |         |
+| 5511888888888 | Enviado |
+
+- Numero: deve conter DDI + DDD + número
+- Status: será atualizado automaticamente para "Enviado"
+
+---
+
+## 🚀 Instalação
+
+1. Criar ambiente virtual:
